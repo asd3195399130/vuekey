@@ -1,16 +1,23 @@
 <template>
   <div id="app">
-    <Code></Code>
+    <!-- <Code></Code> -->
+    <KunLe />
+    <Hello />
   </div>
 </template>
 
 <script>
-import Code from "./components/xiaochengxu.vue";
+// import Code from "./components/xiaochengxu.vue";
+import KunLe from "./components/KunLe";
+import Hello from "./components/Hello";
 export default {
   name: "App",
   components: {
-    Code
-  }
+    // Code
+    Hello,
+    KunLe
+  },
+  methods: {}
 };
 </script>
 
