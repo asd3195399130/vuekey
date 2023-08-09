@@ -1,27 +1,22 @@
 <!--  -->
 <template>
   <div class>
-    <button @click="send">今晚</button>
+    <h1>{{msg}}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelLo",
+  name: "",
   data() {
     return {
-      meg: "今天有鱼吃"
+      msg: "123"
     };
-  },
-  methods: {
-    send() {
-      this.$bus.$emit("xxx", this.meg);
-    }
   },
   created() {},
   mounted() {}
 };
 </script>
-<style lang="less" scoped>
+<style lang="sess" scoped>
 /* @import url(); 引入css类 */
 </style>

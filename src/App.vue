@@ -1,21 +1,17 @@
 <template>
   <div id="app">
+    <img src="./assets/logo.png" alt />
     <!-- <Code></Code> -->
-    <KunLe />
-    <Hello />
+    <son></son>
   </div>
 </template>
 
 <script>
-// import Code from "./components/xiaochengxu.vue";
-import KunLe from "./components/KunLe";
-import Hello from "./components/Hello";
+import son from "./components/son";
 export default {
   name: "App",
   components: {
-    // Code
-    Hello,
-    KunLe
+    son
   },
   methods: {}
 };
