@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png" alt />
     <!-- <Code></Code> -->
-    <son></son>
+    <son name="马户" sex="女" age="19"></son>
   </div>
 </template>
 
@@ -10,9 +10,13 @@
 import son from "./components/son";
 export default {
   name: "App",
+  data() {
+    return {};
+  },
   components: {
     son
   },
+  props: {},
   methods: {}
 };
 </script>
