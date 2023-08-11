@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" alt />
-    <!-- <Code></Code> -->
-    <son name="马户" sex="女" age="19"></son>
+    <h2>热搜榜</h2>
   </div>
 </template>
 
 <script>
-import son from "./components/son";
 export default {
   name: "App",
   data() {
