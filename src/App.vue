@@ -41,7 +41,7 @@ export default {
   name: "App",
   data() {
     return {
-      mt: "333",
+      mt: "333syz",
       falg: false
     };
   },
