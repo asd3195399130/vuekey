@@ -19,7 +19,7 @@ import "animate.css";
 export default {
   data() {
     return {
-      msg: "666",
+      msg: "6666",
       id: 0
     };
   },
