@@ -33,9 +33,9 @@
 </template>
 
 <script>
-import Hearf from "./components/Hearf.vue";
-import son from "./components/son.vue";
-import Counte from "./components/Counte.vue";
+import Hearf from "./components/Hearf";
+import son from "./components/son";
+import Counte from "./components/Counte";
 import "animate.css";
 export default {
   name: "App",
