@@ -41,7 +41,6 @@ export default {
   name: "App",
   data() {
     return {
-      msg: "123",
       falg: false
     };
   },

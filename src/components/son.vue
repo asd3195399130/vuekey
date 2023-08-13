@@ -60,7 +60,8 @@ export default {
       ip: 0,
       shou: true,
       show: false,
-      shut: false
+      shut: false,
+      p:"123456"
     };
   },
   methods: {
