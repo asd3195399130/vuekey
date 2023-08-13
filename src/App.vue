@@ -40,7 +40,10 @@ import "animate.css";
 export default {
   name: "App",
   data() {
-    return { falg: false };
+    return {
+      msg: "123",
+      falg: false
+    };
   },
   components: {
     Hearf,
